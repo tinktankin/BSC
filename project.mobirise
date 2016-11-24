@@ -1,112 +1,18 @@
 {
   "settings": {
     "name": "bestsmecrm",
-    "currentPage": "aboutus.html",
+    "currentPage": "contactus.html",
     "theme": {
       "name": "purity",
       "title": "PurityM",
       "styling": {}
     },
     "versionFirst": "3.8.5",
-    "uniqCompNum": 13,
+    "uniqCompNum": 17,
     "versionPublish": "3.9.2",
     "publishType": "github"
   },
   "pages": {
-    "index.html": {
-      "settings": {
-        "main": true,
-        "title": "",
-        "meta_descr": "",
-        "header_custom": "",
-        "footer_custom": "",
-        "html_before": ""
-      },
-      "components": [
-        {
-          "_inherit": "menu",
-          "alias": "purity/components",
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "ext.menu",
-          "_styles": {
-            ".navbar-toggler": {
-              "color": "#000"
-            },
-            ".nav-link": {
-              "font-size": "20px",
-              "font-family": "'Alegreya Sans', sans-serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Alegreya+Sans:400,700&subset=latin,vietnamese,latin-ext"
-            },
-            ".navbar-brand": {
-              "font-size": "25px"
-            }
-          },
-          "_anchor": "ext_menu-0",
-          "_params": {
-            "hamburgerColor": "#000",
-            "sticky": true,
-            "transparent": false,
-            "color": "#fff",
-            "collapsed": true,
-            "logo": true,
-            "showBrand": true,
-            "showButtons": false
-          },
-          "logo": {
-            "image": {
-              "active": true,
-              "src": "@PROJECT_PATH@/assets/images/booglybear-119x128-95.png",
-              "height": 128,
-              "alt": "Best SME CRM",
-              "link": "https://mobirise.com",
-              "title": "",
-              "linkInNewWindow": false
-            },
-            "iconFont": {
-              "class": "mbr-iconfont mbr-iconfont-menu",
-              "link": "https://mobirise.com",
-              "size": 0
-            }
-          },
-          "brand": "<a class=\"navbar-brand text-primary\" data-app-btn=\"true\" href=\"index.html\" data-app-selector=\".navbar-brand\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">BEST SME CRM</a>",
-          "buttons": "<li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"btn btn-secondary-outline\" data-app-selector=\".navbar-nav .btn\" href=\"https://mobirise.com\">Download</a></li>",
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"nav-link\" data-app-selector=\".nav-link\" href=\"index.html\">Home</a></li><li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"nav-link\" data-app-selector=\".nav-link\" href=\"aboutus.html\">About</a></li><li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"nav-link\" data-app-selector=\".nav-link\" href=\"contact.html\">Contact</a></li>"
-        },
-        {
-          "_inherit": "header1",
-          "alias": "purity/components",
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "header4",
-          "_anchor": "header4-1",
-          "_params": {
-            "parallax": true,
-            "bgImageRadio": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/photo-2.jpg",
-            "bgColor": "#fff8e0",
-            "bgColorRadio": false,
-            "bgVideo": {
-              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
-            },
-            "bgVideoRadio": false,
-            "overlay": false,
-            "overlayOpacity": 0.5,
-            "overlayColor": "#ffffff",
-            "contentAlign": "left",
-            "showTitle": true,
-            "showText": false,
-            "showButtons": true,
-            "showArrow": false
-          },
-          "title": "BEST SME CRM",
-          "text": "Create awesome mobile-friendly websites. No coding and free.",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-warning\" href=\"https://mobirise.com\">For Windows</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white\" href=\"https://mobirise.com\">For MAC</a>"
-        }
-      ]
-    },
     "aboutus.html": {
       "settings": {
         "title": "About Us | Best SME CRM",
@@ -194,16 +100,167 @@
             "showButtons": true,
             "showArrow": false
           },
-          "title": "BEST SME CRM",
+          "title": "<b>Our Passion</b><br>Make Solutions that deliver Results",
           "text": "Create awesome mobile-friendly websites. No coding and free.",
           "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-warning\" href=\"aboutus.html\" data-toolbar=\"-mbrBtnMove\">Learn More</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white\" href=\"aboutus.html\" data-toolbar=\"-mbrBtnMove\">Contact for FREE DEMO!</a>"
+        },
+        {
+          "alias": "purity/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "msg-box1",
+          "_anchor": "msg-box1-g",
+          "_params": {
+            "paddingTop": "2",
+            "paddingBottom": "0",
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/photo-3.jpg",
+            "bgColor": "#FFF8E0",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#222",
+            "inverse": false,
+            "showButtons": false,
+            "showTitle": true,
+            "showText": true
+          },
+          "button": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-danger\" href=\"https://mobirise.com\">Start a Journey</a>",
+          "title": "Relentlessly innovating Next Level technology&nbsp;",
+          "text": "Mobirise comes with huge collection of pre made layouts to help make your development faster."
+        },
+        {
+          "alias": "purity/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content4",
+          "_anchor": "content4-e",
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/photo-3.jpg",
+            "bgColor": "#fff",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#222",
+            "columns": 4,
+            "showTitles": true,
+            "showCaptions": true
+          },
+          "title1": "Bootstrap 3",
+          "caption1": "Bootstrap 3 has been noted as one of the most reliable and proven frameworks and Mobirise has been equipped to develop websites using this framework.",
+          "title2": "Responsive",
+          "caption2": "One of Bootstrap 3's big points is responsiveness and Mobirise makes effective use of this by generating highly responsive website for you.",
+          "title3": "Web Fonts",
+          "caption3": "Google has a highly exhaustive list of fonts compiled into its web font platform and Mobirise makes it easy for you to use them on your website easily and freely.",
+          "title4": "Unlimited Websites",
+          "caption4": "Mobirise gives you the freedom to develop as many websites as you like given the fact that it is a desktop app."
+        },
+        {
+          "alias": "purity/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "social-buttons1",
+          "_anchor": "social-buttons1-f",
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/photo-3.jpg",
+            "bgColor": "#fff",
+            "bgColorRadio": true,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#222",
+            "facebook": true,
+            "counters": true,
+            "twitter": true,
+            "google": true
+          },
+          "text": "Share This Page!"
+        },
+        {
+          "alias": "purity/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "contacts1",
+          "_anchor": "contacts1-b",
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/photo-3.jpg",
+            "bgColor": "#37383e",
+            "bgColorRadio": true,
+            "overlay": true,
+            "overlayOpacity": 0.8,
+            "overlayColor": "#3C3C3C"
+          },
+          "logo": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/booglysmile-265x282-16.png",
+              "width": 265,
+              "active": true,
+              "link": "",
+              "alt": "Best SME CRM",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-contacts1",
+              "link": "",
+              "size": 0
+            }
+          },
+          "text1": "<strong>Address</strong><br>Marigold, Santa Cruz(E)<br>\nMumbai, MH &nbsp;400 055",
+          "text2": "<strong>Contacts</strong><br>\nEmail: support@bestsmecrm.com<br><br>",
+          "text3": "<strong>Links</strong><ul><li><a href=\"index.html\">Contact for Free Demo</a><a href=\"https://mobirise.com/\"></a></li><li><a href=\"https://mobirise.com/mobirise-free-win.zip\">Download for Windows</a></li><li><a href=\"index.html\">Free Resources</a><a href=\"https://mobirise.com/mobirise-free-mac.zip\"></a></li></ul>"
+        },
+        {
+          "alias": "purity/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "footer1",
+          "_anchor": "footer1-c",
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/photo-3.jpg",
+            "bgColor": "#26272c",
+            "bgColorRadio": true,
+            "overlay": true,
+            "overlayOpacity": 0.8,
+            "overlayColor": "#444444"
+          },
+          "text": "Copyright (c) 2015 Company Name. <a href=\"index.html\">Terms of Use</a>  | <a href=\"https://mobirise.com/\">Privacy Policy</a>"
         }
       ]
     },
-    "contact.html": {
+    "index.html": {
       "settings": {
-        "title": "Contact Us | BEST SME CRM ",
-        "meta_descr": "Contact us at Best SME CRM",
+        "title": " BEST SME CRM ",
+        "meta_descr": " Best SME CRM Launched in India",
         "header_custom": "",
         "footer_custom": "",
         "html_before": ""
@@ -418,6 +475,100 @@
             "overlayColor": "#444444"
           },
           "text": "Copyright (c) 2015 Company Name. <a href=\"index.html\">Terms of Use</a>  | <a href=\"https://mobirise.com/\">Privacy Policy</a>"
+        }
+      ]
+    },
+    "contactus.html": {
+      "settings": {
+        "main": true,
+        "title": "Contact us | BEST SME CRM",
+        "meta_descr": "",
+        "header_custom": "",
+        "footer_custom": "",
+        "html_before": ""
+      },
+      "components": [
+        {
+          "_inherit": "menu",
+          "alias": "purity/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "ext.menu",
+          "_styles": {
+            ".navbar-toggler": {
+              "color": "#000"
+            },
+            ".nav-link": {
+              "font-size": "20px",
+              "font-family": "'Alegreya Sans', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Alegreya+Sans:400,700&subset=latin,vietnamese,latin-ext"
+            },
+            ".navbar-brand": {
+              "font-size": "25px"
+            }
+          },
+          "_anchor": "ext_menu-0",
+          "_params": {
+            "hamburgerColor": "#000",
+            "sticky": true,
+            "transparent": false,
+            "color": "#fff",
+            "collapsed": true,
+            "logo": true,
+            "showBrand": true,
+            "showButtons": false
+          },
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/booglybear-119x128-95.png",
+              "height": 128,
+              "alt": "Best SME CRM",
+              "link": "https://mobirise.com",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "brand": "<a class=\"navbar-brand text-primary\" data-app-btn=\"true\" href=\"index.html\" data-app-selector=\".navbar-brand\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">BEST SME CRM</a>",
+          "buttons": "<li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"btn btn-secondary-outline\" data-app-selector=\".navbar-nav .btn\" href=\"https://mobirise.com\">Download</a></li>",
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"nav-link\" data-app-selector=\".nav-link\" href=\"index.html\">Home</a></li><li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"nav-link\" data-app-selector=\".nav-link\" href=\"aboutus.html\">About</a></li><li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"nav-link\" data-app-selector=\".nav-link\" href=\"contact.html\">Contact</a></li>"
+        },
+        {
+          "_inherit": "header1",
+          "alias": "purity/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header4",
+          "_anchor": "header4-1",
+          "_params": {
+            "parallax": true,
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/photo-2.jpg",
+            "bgColor": "#fff8e0",
+            "bgColorRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#ffffff",
+            "contentAlign": "left",
+            "showTitle": true,
+            "showText": false,
+            "showButtons": true,
+            "showArrow": false
+          },
+          "title": "Could your Business use BEST SME CRM ?",
+          "text": "Create awesome mobile-friendly websites. No coding and free.",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-warning\" href=\"contactus.html\" data-toolbar=\"-mbrBtnMove\">Get Started Today!</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white\" href=\"contactus.html\" data-toolbar=\"-mbrBtnMove\">Contact for FREE DEMO!</a>"
         }
       ]
     }

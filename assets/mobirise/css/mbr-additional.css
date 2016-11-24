@@ -1,16 +1,5 @@
 @import url(https://fonts.googleapis.com/css?family=Alegreya+Sans:400,700&subset=latin,vietnamese,latin-ext);
 
-#ext_menu-0 .navbar-toggler {
-  color: #000;
-}
-#ext_menu-0 .nav-link {
-  font-size: 20px;
-  font-family: 'Alegreya Sans', sans-serif;
-}
-#ext_menu-0 .navbar-brand {
-  font-size: 25px;
-}
-
 #ext_menu-2 .navbar-toggler {
   color: #000;
 }
@@ -34,4 +23,15 @@
 }
 #header4-5 H1 {
   color: #000000;
+}
+
+#ext_menu-0 .navbar-toggler {
+  color: #000;
+}
+#ext_menu-0 .nav-link {
+  font-size: 20px;
+  font-family: 'Alegreya Sans', sans-serif;
+}
+#ext_menu-0 .navbar-brand {
+  font-size: 25px;
 }
