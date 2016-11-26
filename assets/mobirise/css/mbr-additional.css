@@ -35,3 +35,23 @@
 #ext_menu-0 .navbar-brand {
   font-size: 25px;
 }
+
+#ext_menu-s .navbar-toggler {
+  color: #000;
+}
+#ext_menu-s .nav-link {
+  font-size: 20px;
+  font-family: 'Alegreya Sans', sans-serif;
+}
+#ext_menu-s .navbar-brand {
+  font-size: 25px;
+}
+#msg-box3-u .mbr-header .mbr-header__text {
+  text-align: center;
+}
+#msg-box3-u .mbr-header .mbr-header__subtext {
+  text-align: center;
+}
+#msg-box4-x .lead UL {
+  text-align: left;
+}
